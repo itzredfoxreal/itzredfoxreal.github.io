@@ -150,7 +150,7 @@
       font-size: clamp(58px, 9vw, 125px); line-height: 0.9; letter-spacing: -0.075em;
     }
     .hero-line { display: block; white-space: nowrap; }
-    .hero h1 span { color: var(--accent); font-style: italic; }
+    .hero h1 .accent-word { color: var(--accent); font-style: italic; }
 
     .hero-bottom { margin-top: 75px; display: flex; align-items: flex-end; justify-content: space-between; gap: 50px; }
     .hero-description { max-width: 440px; color: var(--muted); font-size: 15px; line-height: 1.8; }
@@ -205,7 +205,7 @@
 
     /* STATEMENT */
     .statement { min-height: 65vh; display: flex; align-items: center; justify-content: center; text-align: center; }
-    .statement p { max-width: 900px; font-family: "Playfair Display", serif; font-size: clamp(45px, 6vw, 82px); line-height: 1.02; letter-spacing: -0.055em; }
+    .statement p { max-width: 900px; margin: 0 auto; font-family: "Playfair Display", serif; font-size: clamp(45px, 6vw, 82px); line-height: 1.02; letter-spacing: -0.055em; }
     .statement em { color: var(--accent); font-weight: 400; }
 
     /* CONTACT */
@@ -324,7 +324,7 @@
 
         <h1 class="fade-up delay-1">
           <span class="hero-line">I build things</span>
-          <span class="hero-line">for the <span>web.</span></span>
+          <span class="hero-line accent-word">for the web.</span>
         </h1>
 
         <div class="hero-bottom fade-up delay-2">
